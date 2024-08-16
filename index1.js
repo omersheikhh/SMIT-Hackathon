@@ -2,15 +2,20 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
 import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
 
+
+
+
+
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB0kk5v4La9O8sr9ZcBdNkIdfwQrghDSEY",
-    authDomain: "login-aa35f.firebaseapp.com",
-    projectId: "login-aa35f",
-    storageBucket: "login-aa35f.appspot.com",
-    messagingSenderId: "648808297707",
-    appId: "1:648808297707:web:06ac7b2e07f298fa0a7aae"
-};
+    apiKey: "AIzaSyAtyanlQ_aI05emt_iqJzb_s9ObGctWqQ8",
+    authDomain: "login-page-337d8.firebaseapp.com",
+    projectId: "login-page-337d8",
+    storageBucket: "login-page-337d8.appspot.com",
+    messagingSenderId: "795111048118",
+    appId: "1:795111048118:web:60fac57d72ed05f020b717",
+    measurementId: "G-JTNS81PSCV"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
