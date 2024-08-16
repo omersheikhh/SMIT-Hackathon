@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Firebase SDK scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+    <!-- Firebase Firestore SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js" type="module"></script>
+</head>
+<body>
+    
+
+<div>
+    <h1>
+        TODO LIST
+    </h1>
+
+    <div class="input-container" >
+        <input class="input" name="text" type="text" id="value">
+        <label class="label" for="input">Enter Your LIST</label>
+        <div class="topline"></div>
+        <div class="underline"></div>
+        <button id="btn"  onclick="add()">add</button>
+        </div>
+    
+    <div id="list">
+        
+    </div>
+    
+   <a href="login.html"><button onclick="showAlert()">logout</button></a> 
+</div>
+
+
+    <script src="index.js"   ></script>
+</body>
+</html>
