@@ -26,7 +26,7 @@ a{
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
-   }zcz
+   }
    
    .button::before, .button::after {
     content: '';
