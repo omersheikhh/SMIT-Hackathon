@@ -25,7 +25,7 @@ a{
     font-family: inherit;
     text-transform: uppercase;
     color: var(--color);
-    z-index: 1;x
+    z-index: 1;xz
    }
    
    .button::before, .button::after {
